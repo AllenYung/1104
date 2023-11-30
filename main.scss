@@ -1,0 +1,73 @@
+form{
+    input:valid{
+        background-color: greenyellow;
+    }
+    input:invalid{
+    }
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9EB1BB;
+    position: relative;
+    .block{
+        white-space:nowrap;
+        width: 30vw;
+        height:50vh;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: aq;
+        margin-top: -22vh;
+        margin-left: -15vw;
+        position: relative;
+        .loginP{
+            text-align:center;
+            font-size: 6vmin;
+        }
+        .email{
+            margin: 0;
+            font-size: 3vmin;
+        }
+        .inEmail{
+            width: fill;
+            height: 35px;
+            margin: 0;
+            border-radius: 10px;
+        }
+        .password{
+            margin: 0;
+            font-size: 3vmin;
+        }
+        .inPassword{
+            margin: 0;
+            width: fill;
+            height: 35px;
+            border-radius: 10px;
+        }
+        .upBlock{
+            width: 74px;
+            height: 25px;
+            text-align: center;
+            background-color: #4D6674;
+            position: absolute;
+            right: 0;
+            border-radius: 10px;
+        }
+        .last{
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            background-color: #4D6674;
+            position: absolute;
+            bottom: -30px;
+            left: 12vw;
+            border-radius: 10px;
+        }
+        
+        
+    }
+}
+
+

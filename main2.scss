@@ -1,0 +1,132 @@
+html {
+    background-color: white;
+}
+
+body {
+    width: 852px;
+    height: 647px;
+    background-color: #98A2B3;
+    position: relative;
+
+    .bigBlock {
+        width: 320px;
+        height: 426px;
+        position: absolute;
+        top: 110px;
+        left: 266px;
+    }
+
+    .signUp {
+        font-size: 36px;
+        width: 230px;
+        height: 24px;
+        position: absolute;
+        top: 110px;
+        left: 311px;
+    }
+
+    .email {
+        width: 320px;
+        height: 66px;
+        position: absolute;
+        top: 174px;
+        left: 266px;
+
+        .emailTop {
+            width: 96px;
+            height: 20px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .inEmail {
+            width: 320px;
+            height: 36px;
+            margin: 0;
+            border-radius: 10px;
+        }
+
+    }
+
+    .name {
+        width: 320px;
+        height: 66px;
+        position: absolute;
+        top: 246px;
+        left: 266px;
+
+        .nameTop {
+            width: 40px;
+            height: 20px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .inName {
+            width: 320px;
+            height: 36px;
+            margin: 0;
+            border-radius: 10px;
+        }
+
+    }
+    .passWord{
+        width: 320px;
+        height: 58px;
+        position: absolute;
+        top: 327px;
+        left: 266px;
+        .passTop{
+            width: 66px;
+            height: 20px;
+            font-size: 14px;
+            white-space: nowrap;
+
+        }
+        .inPassword {
+            width: 320px;
+            height: 36px;
+            margin: 0;
+            border-radius: 10px;
+        }
+    }
+    .rePassword{
+        width: 320px;
+        height: 58px;
+        position: absolute;
+        top: 404px;
+        left: 266px;
+        .rePassTop{
+            width: 66px;
+            height: 20px;
+            font-size: 14px;
+            white-space: nowrap;
+
+        }
+        .inRePassword {
+            width: 320px;
+            height: 36px;
+            margin: 0;
+            border-radius: 10px;
+        }
+    }
+    .last{
+        width: 144.48px;
+        height: 41px;
+        background-color: #4D6674;
+        position: absolute;
+        top: 495px;
+        left: 266px;
+        border-radius: 10px;
+    }
+    .back{
+        width: 144.48px;
+        height: 41px;
+        background-color: #4D6674;
+        position: absolute;
+        top: 495px;
+        right: 266px;
+        border-radius: 10px;
+    }
+    
+}

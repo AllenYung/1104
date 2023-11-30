@@ -1,0 +1,68 @@
+form input:valid {
+  background-color: greenyellow;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9EB1BB;
+  position: relative;
+}
+body .block {
+  white-space: nowrap;
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: aq;
+  margin-top: -22vh;
+  margin-left: -15vw;
+  position: relative;
+}
+body .block .loginP {
+  text-align: center;
+  font-size: 6vmin;
+}
+body .block .email {
+  margin: 0;
+  font-size: 3vmin;
+}
+body .block .inEmail {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 35px;
+  margin: 0;
+  border-radius: 10px;
+}
+body .block .password {
+  margin: 0;
+  font-size: 3vmin;
+}
+body .block .inPassword {
+  margin: 0;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill;
+  height: 35px;
+  border-radius: 10px;
+}
+body .block .upBlock {
+  width: 74px;
+  height: 25px;
+  text-align: center;
+  background-color: #4D6674;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+}
+body .block .last {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  background-color: #4D6674;
+  position: absolute;
+  bottom: -30px;
+  left: 12vw;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */
